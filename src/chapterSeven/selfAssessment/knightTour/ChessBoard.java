@@ -1,11 +1,14 @@
 package chapterSeven.selfAssessment.knightTour;
 
+import chapterSeven.selfAssessment.knightTour2.Player;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class ChessBoard {
     private static final Scanner scanner = new Scanner(System.in);
+    private static Player[] player;
     private static final String [][] chessboard = new String[8][8];
     private static ArrayList<int[]> positions = new ArrayList<>();
     private static int currentRow = 4;

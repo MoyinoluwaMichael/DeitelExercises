@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/Knight.java" afterDir="false" />
+    <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour2/ChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour2/KnightTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour2/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour2/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/KnightTour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -33,31 +38,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Moyinoluwa Michael/IdeaProjects/inTheBeginning/src/chapterSeven/selfAssessment/airlineReservationsSystem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/IdeaProjects/inTheBeginning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Moyinoluwa Michael\IdeaProjects\inTheBeginning\src\chapterSeven\selfAssessment\airlineReservationsSystem" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chapterSeven.selfAssessment.knightTour2" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Knight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.knightTour.Knight" />
+  <component name="RunManager" selected="Application.chapterSeven.selfAssessment.knightTour2.KnightTour">
+    <configuration name="GuessTheNumberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSix.selfAssessment.guessApp.GuessTheNumberApp" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.selfAssessment.knightTour.*" />
+          <option name="PATTERN" value="chapterSix.selfAssessment.guessApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.knightTour.KnightTour" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterSeven.selfAssessment.knightTour2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarShapedAsterisks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFive.selfAssessment.starShapedAsterisks.StarShapedAsterisks" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFive.selfAssessment.starShapedAsterisks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarShapedAsterisks2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFive.selfAssessment.starShapedAsterisks.StarShapedAsterisks2" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFive.selfAssessment.starShapedAsterisks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapterSeven.selfAssessment.knightTour2.KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.knightTour2.KnightTour" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterSeven.selfAssessment.knightTour2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Knight" />
+        <item itemvalue="Application.chapterSeven.selfAssessment.knightTour2.KnightTour" />
+        <item itemvalue="Application.GuessTheNumberApp" />
+        <item itemvalue="Application.KnightTour" />
+        <item itemvalue="Application.StarShapedAsterisks2" />
+        <item itemvalue="Application.StarShapedAsterisks" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +144,9 @@
       <option name="presentableId" value="Default" />
       <updated>1673281862686</updated>
       <workItem from="1673282215044" duration="791000" />
-      <workItem from="1673299719212" duration="1285000" />
+      <workItem from="1673299719212" duration="19574000" />
+      <workItem from="1673396421745" duration="43000" />
+      <workItem from="1673418702673" duration="11155000" />
     </task>
     <servers />
   </component>
@@ -97,5 +163,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stretched" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stretched" />
   </component>
 </project>
