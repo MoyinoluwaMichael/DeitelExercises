@@ -1,7 +1,5 @@
 package chapterSeven.selfAssessment.knightTour2;
 
-import chapterSeven.selfAssessment.knightTour2.Status;
-
 public class Player {
     private String name;
     private Status status;
