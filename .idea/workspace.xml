@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/CardType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/EStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/assignment/eStore/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSix/selfAssessment/coinTossing/Coin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSix/selfAssessment/computerAssistedInstruction/ComputerAssistedInstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSix/selfAssessment/computerAssistedInstruction/ComputerAssistedInstruction.java" afterDir="false" />
-    </list>
+    <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +148,7 @@
       <workItem from="1673418702673" duration="13862000" />
       <workItem from="1673513329162" duration="614000" />
       <workItem from="1673516934885" duration="34852000" />
-      <workItem from="1673769821399" duration="1477000" />
+      <workItem from="1673769821399" duration="1827000" />
     </task>
     <servers />
   </component>
