@@ -9,8 +9,8 @@ public class ComputerAssistedInstruction {
     private final SecureRandom secureRandom = new SecureRandom();
     private int answer;
     private Status status;
-    private final String[] correctResponse = {"Very good!", "Excellent!", "Nice work!", "Keep up the good work!"};
-    private final String[] incorrectResponse = {"No. Please try again.", "Wrong. Try once more.!", "Don't give up!", "No. Keep trying."};
+    private final String[] correctResponseMessage = {"Very good!", "Excellent!", "Nice work!", "Keep up the good work!"};
+    private final String[] incorrectResponseMessage = {"No. Please try again.", "Wrong. Try once more.!", "Don't give up!", "No. Keep trying."};
     private int passCount;
     private int questionCount;
     private int difficultyLevelCount = 1;
@@ -101,7 +101,7 @@ public class ComputerAssistedInstruction {
     }
 
 
-    private void        resetCounts() {
+    private void resetCounts() {
         passCount = 0;
         questionCount = 0;
     }
@@ -114,10 +114,10 @@ public class ComputerAssistedInstruction {
         if (expectedAnswer == getAnswer()) {
             status = Status.PASS;
             passCount++;
-            System.out.println(correctResponse[secureRandom.nextInt(4)]);
+            System.out.println(correctResponseMessage[secureRandom.nextInt(4)]);
         } else {
             status = Status.FAIL;
-            System.out.println(incorrectResponse[secureRandom.nextInt(4)]);
+            System.out.println(incorrectResponseMessage[secureRandom.nextInt(4)]);
         }
         if (questionCount == 10) {
             addNewLine();
