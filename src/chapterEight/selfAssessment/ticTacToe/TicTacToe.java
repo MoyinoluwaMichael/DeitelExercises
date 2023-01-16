@@ -22,9 +22,7 @@ public class TicTacToe {
                 2. Play With Computer""");
         int gameMode = scanner.nextInt();
         switch (gameMode) {
-            case 1 -> {
-                mode = GameMode.MULTIPLAYER;
-            }
+            case 1 -> mode = GameMode.MULTIPLAYER;
             case 2 -> {
                 mode = GameMode.COMPUTER;
                 System.out.println("Computer mode activated");
@@ -88,8 +86,8 @@ public class TicTacToe {
         validate(moveNumber);
         players[getCurrentPlayer()].setPlayerPosition(moveNumber);
         setBoard();
-        if (mode == GameMode.COMPUTER){
-            if (getCurrentPlayer() == 0){
+        if (mode == GameMode.COMPUTER) {
+            if (getCurrentPlayer() == 0) {
                 delay("Computer is about playing");
             }
             System.out.println();
@@ -101,14 +99,13 @@ public class TicTacToe {
         checkTie();
     }
 
-    private static void validate(int moveNumber) {
-        if (moveNumber < 0 || moveNumber > 9) {
-            switch (mode){
+    private static void validate(int positionNumber) {
+        if (positionNumber < 0 || positionNumber > 9) {
+            switch (mode) {
                 case COMPUTER -> {
-                    if (getCurrentPlayer() == 0){
+                    if (getCurrentPlayer() == 0) {
                         throw new IllegalArgumentException();
-                    }
-                    else {
+                    } else {
                         addNewLine();
                         displayBoard();
                         throw new IllegalArgumentException("Number must be between 1 and 9");
@@ -117,30 +114,28 @@ public class TicTacToe {
                 case MULTIPLAYER -> {
                     addNewLine();
                     displayBoard();
-                    throw new IllegalArgumentException("Number must be between 1 and 9");}
+                    throw new IllegalArgumentException("Number must be between 1 and 9");
+                }
             }
         }
-        confirmBoardSpace(moveNumber);
+        confirmBoardSpace(positionNumber);
     }
 
-    private static void confirmBoardSpace(int moveNumber) {
-        int row = (moveNumber - 1) / 3;
-        int column = (moveNumber - 1) % 3;
+    private static void confirmBoardSpace(int positionNumber) {
+        int row = (positionNumber - 1) / 3;
+        int column = (positionNumber - 1) % 3;
+        validateEmptySpace(row, column);
+    }
+
+    private static void validateEmptySpace(int row, int column) {
         if (!board[row][column].equals(" ")) {
-            switch (mode){
+            switch (mode) {
                 case COMPUTER -> {
-                    if (getCurrentPlayer() == 0){
-                        throw new IllegalArgumentException();
-                    }
-                    else {
-                        addNewLine();
-                        displayBoard();
-                        throw new IllegalArgumentException("Specified position already taken. Please try again.");
-                    }}
+                    ComputerMode.validateBoardSpace();
+                }
                 case MULTIPLAYER -> {
-                    addNewLine();
-                    displayBoard();
-                    throw new IllegalArgumentException("Specified position already taken. Please try again.");}
+                    Multiplayer.validateBoardSpace();
+                }
             }
         }
     }
@@ -155,15 +150,13 @@ public class TicTacToe {
     }
 
     private static void printWinningMessage() {
-        if (mode == GameMode.COMPUTER){
-            if (getCurrentPlayer() == 0){
+        if (mode == GameMode.COMPUTER) {
+            if (getCurrentPlayer() == 0) {
                 System.out.println("Computer won. Game over!");
-            }
-            else {
+            } else {
                 System.out.printf("Congratulations %s, you won!", players[getCurrentPlayer()].getName());
             }
-        }
-        else {
+        } else {
             System.out.printf("Congratulations %s, you won!", players[getCurrentPlayer()].getName());
         }
     }
@@ -172,7 +165,7 @@ public class TicTacToe {
         return gameIsWon;
     }
 
-    private static void addNewLine() {
+    static void addNewLine() {
         System.out.println("""
                                 
                                 
@@ -202,6 +195,7 @@ public class TicTacToe {
     public static Player[] getPlayers() {
         return players;
     }
+
     public static void delay(String message) throws InterruptedException {
         System.out.print(message);
         for (int i = 0; i < 3; i++) {
