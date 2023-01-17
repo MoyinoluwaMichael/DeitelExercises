@@ -17,9 +17,12 @@ public class TicTacToe {
 
     public static void setGameMode() {
         System.out.println("""
+                TIC-TAC-TOE GAME
                 Game Mode
                 1. Multiplayer
-                2. Play With Computer""");
+                2. Play With Computer
+                Select mode:
+                """);
         int gameMode = scanner.nextInt();
         switch (gameMode) {
             case 1 -> mode = GameMode.MULTIPLAYER;

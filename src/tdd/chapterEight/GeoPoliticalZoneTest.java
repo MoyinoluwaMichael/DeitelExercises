@@ -1,4 +1,4 @@
-package tdd;
+package tdd.chapterEight;
 
 import chapterEight.classWork.GeoPoliticalZones;
 import org.junit.jupiter.api.Test;
