@@ -51,7 +51,7 @@ public class ComputerMode {
         String playerName;
         playerName = TicTacToe.getPlayers()[getCurrentPlayer()].getName();
         if (!playerName.equalsIgnoreCase("Computer")){
-            System.out.printf("%s, enter a number to take a position %n", playerName);
+            System.out.printf("%s, enter a number between 1 and 9 to take a position %n", playerName);
         }
         switch (getCurrentPlayer()){
             case 0 -> TicTacToe.playGame(1+random.nextInt(9));

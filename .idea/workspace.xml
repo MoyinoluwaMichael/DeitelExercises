@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/memoryGame/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/chapterEight/MemoryGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/memoryGame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/memoryGame/MemoryGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/polling/PollingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/polling/PollingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/GeoPoliticalZoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/chapterEight/GeoPoliticalZoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/memoryGame/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/memoryGame/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/ComputerMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/ComputerMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/Multiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/chapterEight/MemoryGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/chapterEight/MemoryGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +81,7 @@
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ComputerAssistedInstructionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSix.selfAssessment.computerAssistedInstruction.ComputerAssistedInstructionMain" />
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterSix.selfAssessment.computerAssistedInstruction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.chapterEight.selfAssessment.memoryGame.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.ticTacToe.Main" />
       <module name="inTheBeginningCopy" />
@@ -107,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PollingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.polling.PollingTest" />
+    <configuration name="chapterEight.selfAssessment.memoryGame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.memoryGame.Main" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.selfAssessment.polling.*" />
+          <option name="PATTERN" value="chapterEight.selfAssessment.memoryGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryGameTest.testThatTheContentsOfTheDeckAreShuffled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoryGameTest.testThatTheContentOfTheDeckCanBeHiddenAfterShuffling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +133,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="tdd.chapterEight" />
       <option name="MAIN_CLASS_NAME" value="tdd.chapterEight.MemoryGameTest" />
-      <option name="METHOD_NAME" value="testThatTheContentsOfTheDeckAreShuffled" />
+      <option name="METHOD_NAME" value="testThatTheContentOfTheDeckCanBeHiddenAfterShuffling" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryGameTest.testThatTheGameRandomlyPicksACard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.chapterEight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd.chapterEight" />
+      <option name="MAIN_CLASS_NAME" value="tdd.chapterEight.MemoryGameTest" />
+      <option name="METHOD_NAME" value="testThatTheGameRandomlyPicksACard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PollingTest" />
-        <item itemvalue="JUnit.MemoryGameTest.testThatTheContentsOfTheDeckAreShuffled" />
+        <item itemvalue="Application.chapterEight.selfAssessment.memoryGame.Main" />
         <item itemvalue="JUnit.MemoryGameTest" />
-        <item itemvalue="Application.ComputerAssistedInstructionMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MemoryGameTest.testThatTheGameRandomlyPicksACard" />
+        <item itemvalue="JUnit.MemoryGameTest.testThatTheContentOfTheDeckCanBeHiddenAfterShuffling" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +182,7 @@
       <workItem from="1673769821399" duration="3343000" />
       <workItem from="1673800024235" duration="24466000" />
       <workItem from="1673846214960" duration="32231000" />
-      <workItem from="1673905777838" duration="25577000" />
+      <workItem from="1673905777838" duration="48697000" />
     </task>
     <servers />
   </component>

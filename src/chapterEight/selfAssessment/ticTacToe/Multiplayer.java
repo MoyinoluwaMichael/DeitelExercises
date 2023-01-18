@@ -37,7 +37,7 @@ public class Multiplayer {
     private static void startGame() throws InterruptedException {
         try {
             String playerName = TicTacToe.getPlayers()[getCurrentPlayer()].getName();
-            System.out.printf("%s, enter a number to take a position %n", playerName);
+            System.out.printf("%s, enter a number between 1 and 9 to take a position %n", playerName);
             int moveNumber = scanner.nextInt();
             TicTacToe.playGame(moveNumber);
         } catch (IllegalArgumentException e) {
