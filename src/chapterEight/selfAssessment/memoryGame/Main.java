@@ -5,17 +5,10 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String... args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println(Memory.displayMenu());
-        int menu = scanner.nextInt();
-        while (menu < 1 || menu > 2) {
-            System.out.println("Wrong input.");
-            System.out.println(Memory.displayMenu());
-            menu = scanner.nextInt();
-        }
-        switch (menu) {
+        switch (Memory.displayMenu()) {
             case 1 -> {
                 do {
                     try {
@@ -27,6 +20,10 @@ public class Main {
             }
             case 2 -> {
                 System.out.println(Memory.getHelp());
+                int help = scanner.nextInt();
+                if (help == 0) {
+                    main();
+                }
             }
         }
     }

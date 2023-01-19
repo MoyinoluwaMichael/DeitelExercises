@@ -2,8 +2,10 @@ package chapterEight.selfAssessment.memoryGame;
 
 import java.security.SecureRandom;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Memory {
+    private static final Scanner scanner = new Scanner(System.in);
     private static final SecureRandom random = new SecureRandom();
     private static final String[] alphabets = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
             "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
@@ -15,11 +17,18 @@ public class Memory {
     private static boolean isWon;
     private static final String help = "Try to remember the position of each card while they are " +
             "       swiping and guess which card is the designated one.";
-    public static String displayMenu(){
-        return """
+    public static int displayMenu(){
+        System.out.println("""
                 MEMORY GAME
                 1. Play Game
-                2. Help""";
+                2. Help""");
+        int menu = scanner.nextInt();
+        while (menu < 1 || menu > 2) {
+            System.out.println("Wrong input.");
+            Memory.displayMenu();
+            menu = scanner.nextInt();
+        }
+        return menu;
     }
     public static String[] generateDeck() {
         String [] chosenAlphabetIndexes = new String[5];
@@ -128,7 +137,9 @@ public class Memory {
         return deck;
     }
     public static String getHelp(){
-        return help;
+        return String.format("""
+                %s
+                0. Back""", help);
     }
     private static int getRandomCardIndex(){
         for (int i = 0; i < deck.length; i++) {
