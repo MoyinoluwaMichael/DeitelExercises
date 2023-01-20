@@ -72,7 +72,6 @@ public class ChessBoard {
             if (newCurrentRow < chessboard.length && newCurrentRow >= 0 && newCurrentColumn < chessboard[0].length && newCurrentColumn >= 0) {
                 if (!chessboard[newCurrentRow][newCurrentColumn].equalsIgnoreCase("  ")) {
                     winningMove = possibleMoveCount;
-                    chessboard[newCurrentRow][newCurrentColumn] = chessboard[newCurrentRow][newCurrentColumn];
                 } else {
                     chessboard[newCurrentRow][newCurrentColumn] = " " + possibleMoveCount;
                 }
@@ -89,6 +88,7 @@ public class ChessBoard {
     }
 
     public static void play(int playerMove) {
+        validate(playerMove);
         setPlayerPosition(currentPlayerIndex, possibleMovements.get(playerMove - 1)[0], possibleMovements.get(playerMove - 1)[1]);
         if (playerMove == winningMove) {
             players[currentPlayerIndex].setStatus(Status.WON);
@@ -101,10 +101,18 @@ public class ChessBoard {
         }
     }
 
+    private static void validate(int playerMove) {
+        if (playerMove >= possibleMovements.size()){
+            throw new IllegalArgumentException("Wrong input. Move number must be within the range of the " +
+                    "specified possible movement numbers displayed in the board.");
+        }
+    }
+
     private static void displayWinningBoard() {
         String[] winningMessage = {"Congrats", players[currentPlayerIndex].getName(), "YOU WON!"};
         clearBoard();
-        if ((players[currentPlayerIndex].getCurrentRowPosition() >= 0 && players[currentPlayerIndex].getCurrentRowPosition() <= 2) || (players[currentPlayerIndex].getCurrentRowPosition() > 5 && players[currentPlayerIndex].getCurrentRowPosition() < 9)) {
+        if ((players[currentPlayerIndex].getCurrentRowPosition() >= 0 && players[currentPlayerIndex].getCurrentRowPosition() <= 2) ||
+                (players[currentPlayerIndex].getCurrentRowPosition() > 5 && players[currentPlayerIndex].getCurrentRowPosition() < 9)) {
             prepareWinningMessageInTheMiddleOfTheBoard(winningMessage);
         } else {
             prepareWinningMessageAtTheTopOfTheBoard(winningMessage);

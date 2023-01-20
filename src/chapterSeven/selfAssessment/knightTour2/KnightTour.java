@@ -15,8 +15,12 @@ public class KnightTour {
         ChessBoard.setDefaultPlayersPosition();
         ChessBoard.displayBoard();
         do {
-            System.out.println(ChessBoard.getCurrentPlayerName() + ", it's your turn to make a move. Enter a move number");
-            ChessBoard.play(scanner.nextInt());
+            try {
+                System.out.println(ChessBoard.getCurrentPlayerName() + ", it's your turn to make a move. Enter a move number");
+                ChessBoard.play(scanner.nextInt());
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+            }
         }
         while (!ChessBoard.playerHasWon());
     }
