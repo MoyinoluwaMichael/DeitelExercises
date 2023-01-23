@@ -1,5 +1,6 @@
 package chapterEight.classWork.TortoiseAndTheHareRace;
 
+import javax.swing.*;
 import java.util.Arrays;
 
 public class RaceTrack {
@@ -25,7 +26,7 @@ public class RaceTrack {
         lanes[TORTOISE_LANE][tortoisePosition] = TORTOISE;
         lanes[HARE_LANE][harePosition] = HARE;
         displayTrack();
-        System.out.println("""
+        display("""
                 BANG !!!!!
                 AND THEY'RE OFF !!!!!
                 """);
@@ -152,7 +153,7 @@ public class RaceTrack {
 
     public void displayTrack() {
         for (var lane : lanes) {
-            System.out.println(Arrays.toString(lane));
+            display(Arrays.toString(lane));
         }
     }
 
@@ -181,17 +182,17 @@ public class RaceTrack {
 
     private void displayBiteMessage() {
         if (isBitten()) {
-            System.out.println("Yeee! Ijapa bu mi nimu je");
+            display("Yeee! Ijapa bu mi nimu je");
         }
     }
 
     private void displayWinningMessage() {
         if (tortoisePosition == 69 && harePosition < 69) {
-            System.out.println("Tortoise Won the race!");
+            display("Tortoise Won the race!");
         } else if (harePosition == 69 && tortoisePosition < 69) {
-            System.out.println("Hare Won the race!");
+            display("Hare Won the race!");
         } else if (isTie()) {
-            System.out.println("The game is a tie!");
+            display("The game is a tie!");
         }
     }
 
@@ -205,7 +206,7 @@ public class RaceTrack {
     }
 
     private void addLines() {
-        System.out.println("""
+        display("""
                                 
                                 
                                 
@@ -215,5 +216,8 @@ public class RaceTrack {
                                 
                                 
                 """);
+    }
+    private void display(String message){
+       System.out.println(message);
     }
 }

@@ -18,7 +18,7 @@ public class Bank {
         public Account findAccount(int accountNumber){
             return accounts.get(accountNumber-1);
         }
-        public BigDecimal checkBalance(int accountNumber, String pin){
+        public BigDecimal checkBalanceFor(int accountNumber, String pin){
             Account account = findAccount(accountNumber);
             return account.getBalance(pin);
         }
@@ -30,6 +30,10 @@ public class Bank {
         public void withdrawFrom(int accountNumber, BigDecimal amount, String pin) {
             Account account = findAccount(accountNumber);
             account.withdraw(amount, pin);
+        }
+        public void transfer(BigDecimal amount, int senderAccountNumber, int receiverAccountNumber, String senderPin){
+            findAccount(senderAccountNumber).withdraw(amount,senderPin);
+            findAccount(receiverAccountNumber).deposit(amount);
         }
 
     }

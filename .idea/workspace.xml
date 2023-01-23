@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/classWork/bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/classWork/bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/chapterEight/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/chapterEight/BankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterEight/classWork/bank/AtMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/chapterEight/bankAppTest/BankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/TortoiseAndTheHareRace/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/TortoiseAndTheHareRace/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/TortoiseAndTheHareRace/Pail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/TortoiseAndTheHareRace/Pail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/KnightTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/knightTour/KnightTour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/TortoiseAndTheHareRace/RaceTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/TortoiseAndTheHareRace/RaceTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/chapterEight/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/chapterEight/bankAppTest/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/chapterEight/BankTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,37 +75,24 @@
       <recent name="chapterEight.selfAssessment.CylinderClass" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tdd.chapterEight.bankAppTest" />
       <recent name="chapterEight.selfAssessment.CylinderClass" />
       <recent name="tdd.chapterEight" />
       <recent name="chapterSeven.classwork.TheTortoiseAndTheHare" />
       <recent name="chapterSeven.selfAssessment" />
-      <recent name="chapterSeven.selfAssessment.knightTour2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tdd.chapterEight" />
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.chapterSeven.selfAssessment.knightTour.KnightTour">
-    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.knightTour2.KnightTour" />
+  <component name="RunManager" selected="Application.AtMachine">
+    <configuration name="AtMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.bank.AtMachine" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.selfAssessment.knightTour2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.TortoiseAndTheHareRace.Pail" />
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterEight.classWork.TortoiseAndTheHareRace.*" />
+          <option name="PATTERN" value="chapterEight.classWork.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapterEight.selfAssessment.memoryGame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.memoryGame.Main" />
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterEight.selfAssessment.memoryGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="chapterSeven.selfAssessment.knightTour.KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.knightTour.KnightTour" />
       <module name="inTheBeginningCopy" />
@@ -153,13 +126,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.chapterEight.bankAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd.chapterEight.bankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.chapterEight.bankAppTest.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.chapterEight.bankAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd.chapterEight.bankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.chapterEight.bankAppTest.BankTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.chapterSeven.selfAssessment.knightTour.KnightTour" />
-        <item itemvalue="Application.KnightTour" />
-        <item itemvalue="Application.Pail" />
+        <item itemvalue="Application.AtMachine" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.BankTest" />
         <item itemvalue="Application.chapterEight.classWork.TortoiseAndTheHareRace.Main" />
-        <item itemvalue="Application.chapterEight.selfAssessment.memoryGame.Main" />
+        <item itemvalue="Application.chapterSeven.selfAssessment.knightTour.KnightTour" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +190,7 @@
       <workItem from="1674296513561" duration="200000" />
       <workItem from="1674324981717" duration="3193000" />
       <workItem from="1674378905849" duration="3582000" />
-      <workItem from="1674472805957" duration="11257000" />
+      <workItem from="1674472805957" duration="16548000" />
     </task>
     <servers />
   </component>

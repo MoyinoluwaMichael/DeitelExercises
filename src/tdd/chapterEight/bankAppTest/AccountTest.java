@@ -1,4 +1,4 @@
-package tdd.chapterEight;
+package tdd.chapterEight.bankAppTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
