@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String... args) throws InterruptedException {
         final SecureRandom random = new SecureRandom();
 
         RaceTrack newRace = new RaceTrack();
