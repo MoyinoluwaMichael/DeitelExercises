@@ -32,7 +32,9 @@ public class Account {
         validate(pin);
         balance = balance.subtract(amount);
     }
-
+    public int getAccountNumber(){
+        return accountNumber;
+    }
     @Override
     public String toString() {
         return String.format("""

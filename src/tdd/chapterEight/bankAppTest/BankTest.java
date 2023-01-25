@@ -63,6 +63,29 @@ class BankTest {
         wemaBank.transfer(BigDecimal.valueOf(3000), 1, 2, "6758");
         assertEquals(BigDecimal.valueOf(3000), wemaBank.checkBalanceFor(2, "7654"));
     }
+    @Test
+    public void accountCanBeClosedTest(){
+        wemaBank.closeAccountFor(1, "6758");
+        assertEquals(0, wemaBank.getNumberOfCustomers());
+    }
+    @Test
+    public void accountThatDoesNotExistThrowExceptionTest(){
+        assertThrows(IllegalArgumentException.class, ()-> wemaBank.checkBalanceFor(2, "6758"));
+    }
 
+    @Test
+    public void twoAccountsDoNotHaveSameAccountNumberTest(){
+        wemaBank.createAccountFor("seyi", "Obibia", "4322");
+        wemaBank.closeAccountFor(1, "6758") ;
+        wemaBank.createAccountFor("Chinwe", "Obibia", "6718");
+        String expected = """
+                ======================
+                Account Name: Chinwe Obibia
+                Account Number: 3
+                Account Balance: 0
+                ======================
+                """;
+        assertEquals(expected, wemaBank.findAccount(3).toString());
+    }
 
 }

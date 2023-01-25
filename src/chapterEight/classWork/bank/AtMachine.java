@@ -20,8 +20,9 @@ public class AtMachine {
                 2 -> Deposit
                 3 -> Withdraw
                 4 -> Transfer
-                5. Check Balance
-                6 -> Exit
+                5 -> Check Balance
+                6 -> Close Account
+                7 -> Exit
                 """;
         String userInput = input(mainMenu);
         switch (userInput.charAt(0)) {
@@ -30,7 +31,8 @@ public class AtMachine {
             case '3' -> withdraw();
             case '4' -> transfer();
             case '5' -> checkBalance();
-            case '6' -> exitApplication();
+            case '6' -> closeAccount();
+            case '7' -> exitApplication();
             default -> gotoMainMenu();
         }
     }
@@ -86,6 +88,18 @@ public class AtMachine {
                 Your account balance is %s
                 """, gtbank.checkBalanceFor(accountNumber, pin));
         display(accountBalance);
+        gotoMainMenu();
+    }
+
+    private static void closeAccount() {
+        int accountNumber = Integer.parseInt(input("Enter your account number"));
+        String pin = input("Enter your pin");
+        try{
+            gtbank.closeAccountFor(accountNumber, pin);
+        }catch (IllegalArgumentException e){
+            display(e.getMessage());
+        }
+        display("Account has been closed.");
         gotoMainMenu();
     }
 
