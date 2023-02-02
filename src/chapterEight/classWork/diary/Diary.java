@@ -5,7 +5,15 @@ import java.util.List;
 
 public class Diary {
     private final List<Entry> entries = new ArrayList<>();
+    private boolean isLocked;
     private int idCount;
+    private String userName;
+    private String password;
+
+    public Diary(String userName, String password){
+        this.userName = userName.toUpperCase();
+        this.password = password;
+    }
 
     public void createEntry(String entryTitle, String entryBody) {
         int entryId = ++idCount;
@@ -49,5 +57,18 @@ public class Diary {
     public String getEntryTitle(int id){
         Entry entry = getEntry(id);
         return entry.getTitle();
+    }
+
+    public void lockDiary() {
+        isLocked = true;
+    }
+    public boolean isLocked() {
+        return isLocked;
+    }
+
+    public void unlockDiary(String userName, String password) {
+        if (this.password.equals(password)){
+            isLocked = false;
+        }
     }
 }

@@ -1,6 +1,6 @@
 package tdd.chapterEight.phoneBookAppTest;
 
-import chapterEight.selfAssessment.phoneBook.Contact;
+import chapterEight.classWork.phoneBook.Contact;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

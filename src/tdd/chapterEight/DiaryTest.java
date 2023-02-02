@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DiaryTest {
-    Diary dearDiary = new Diary();
+    Diary dearDiary = new Diary("Moyin", "1234");
 
     @BeforeEach
     public void startEachTestWith() {
@@ -74,6 +74,17 @@ class DiaryTest {
                 =====================================================================================================
                 """, entryBody);
         assertEquals(expected, dearDiary.viewEntryAt(1));
+    }
+    @Test
+    public void diaryCanBeLockedTest(){
+        dearDiary.lockDiary();
+        assertTrue(dearDiary.isLocked());
+    }
+    @Test
+    public void diaryCanBeUnlockedWithDiaryPasswordTest(){
+        dearDiary.lockDiary();
+//        dearDiary.unlockDiary("1234");
+        assertFalse(dearDiary.isLocked());
     }
 
 

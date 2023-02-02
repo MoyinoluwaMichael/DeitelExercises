@@ -1,9 +1,11 @@
 package chapterEight.classWork.diary;
 
 import javax.swing.*;
+import java.lang.reflect.Executable;
 
 public class Main {
-    private static Diary myDiary = new Diary();
+    private static Diary myDiary = new Diary("Moyin", "1234");
+
     public static void main(String[] args) {
         gotoMainMenu();
     }
@@ -23,63 +25,77 @@ public class Main {
             case '3' -> deleteEntry();
             case '4' -> checkNumberOfEntriesCreated();
             case '5' -> editEntry();
+            case '6' -> unlockDiary();
             default -> gotoMainMenu();
+
+
         }
 
     }
+
+    private static void unlockDiary() {
+        String userName = input("Enter your username");
+        String password = input("Enter your password");
+
+    }
+
     private static void createEntry() {
         String entryTitle = input("Enter the title of your Entry");
         String entryBody = input("Enter the body of your Entry");
-        try{
+        try {
             myDiary.createEntry(entryTitle, entryBody);
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             display(e.getMessage());
             gotoMainMenu();
         }
         gotoMainMenu();
     }
-    private static void viewEntry(){
+
+    private static void viewEntry() {
         String idNumber = input("Enter Entry ID number");
-        try{
+        try {
             String entry = myDiary.viewEntryAt(Integer.parseInt(idNumber));
             display(entry);
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             display(e.getMessage());
             gotoMainMenu();
         }
         gotoMainMenu();
     }
-    private static void deleteEntry(){
+
+    private static void deleteEntry() {
         String idNumber = input("Enter Entry ID number");
         int id = Integer.parseInt(idNumber);
         String title = "";
-        try{
+        try {
             title = myDiary.getEntryTitle(id);
             myDiary.deleteEntryAt(id);
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             display(e.getMessage());
             gotoMainMenu();
         }
-        display("Entry titled "+title+" has been deleted successfully!");
+        display("Entry titled " + title + " has been deleted successfully!");
         gotoMainMenu();
     }
-    private static void checkNumberOfEntriesCreated(){
+
+    private static void checkNumberOfEntriesCreated() {
         int numberOfEntries = 0;
-        try{
+        try {
             numberOfEntries = myDiary.getNumberOfEntriesCreated();
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             display(e.getMessage());
             gotoMainMenu();
         }
-        display("Total number of entries in your diary is "+numberOfEntries);
+        display("Total number of entries in your diary is " + numberOfEntries);
         gotoMainMenu();
     }
-    private static void editEntry(){
+
+    private static void editEntry() {
         String idNumber = input("Enter Entry ID number");
         String entry = "";
-        try{
+        try {
             entry = myDiary.viewEntryAt(Integer.parseInt(idNumber));
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             display(e.getMessage());
             gotoMainMenu();
         }
@@ -88,8 +104,15 @@ public class Main {
         myDiary.editEntryAt(Integer.parseInt(idNumber), newEntryBody);
         gotoMainMenu();
     }
+
     private static String input(String prompt) {
-        return JOptionPane.showInputDialog(prompt);
+        String userInput = JOptionPane.showInputDialog(prompt);
+        if (userInput.equals("") || userInput == null) {
+            display("Invalid input. Try again");
+            return ".";
+        }
+
+        return userInput;
     }
 
     private static void display(String message) {
