@@ -1,4 +1,4 @@
-package chapterSeven.selfAssessment.AirlineReservationsSystem;
+package chapterSeven.selfAssessment.airlineReservationsSystem;
 
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;

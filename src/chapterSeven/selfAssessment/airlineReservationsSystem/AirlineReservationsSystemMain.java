@@ -1,4 +1,4 @@
-package chapterSeven.selfAssessment.AirlineReservationsSystem;
+package chapterSeven.selfAssessment.airlineReservationsSystem;
 
 import java.util.Scanner;
 
@@ -16,12 +16,8 @@ public class AirlineReservationsSystemMain {
                 menu = scanner.nextInt();
             }
             switch (menu) {
-                case 1 -> {
-                    ars.bookFlight();
-                }
-                case 2 -> {
-                    ars.exitApp();
-                }
+                case 1 -> ars.bookFlight();
+                case 2 -> ars.exitApp();
             }
         }
         while (true);

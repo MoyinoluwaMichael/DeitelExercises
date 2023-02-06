@@ -47,13 +47,13 @@ public class Contact {
     private void validateNumberContent(String phoneNumber) {
         char[] numbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
         for (int i = 0; i < phoneNumber.length(); i++) {
-            int count = 0;
+            boolean isFound = false;
             for (char each : numbers) {
                 if (each == phoneNumber.charAt(i)) {
-                    count++;
+                    isFound = true;
                 }
             }
-            if (count == 0) {
+            if (!isFound) {
                 throw new IllegalArgumentException("Phone number contains invalid character. Number must be between 0 and 9");
             }
         }
@@ -76,8 +76,8 @@ public class Contact {
 
     private void validateEmailAddress(String newEmailAddress) {
         String[] split = newEmailAddress.split("@");
-        if (!split[1].equalsIgnoreCase("gmail.com") && !split[1].equalsIgnoreCase("yahoo.com")) {
-            throw new IllegalArgumentException("Invalid email address");
+        if (split.length != 2 || (!split[1].equalsIgnoreCase("gmail.com") && !split[1].equalsIgnoreCase("yahoo.com"))) {
+            throw new IllegalArgumentException("Invalid email address. Valid email contains @gmail.com pr @yahoo.com");
         }
     }
 
