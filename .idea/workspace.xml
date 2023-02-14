@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/phonebookDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTen/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTen/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/chapterTen/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeKSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/airlineReservationsSystem/AirlineReservationsSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/airlineReservationsSystem/AirlineReservationsSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/airlineReservationsSystem/AirlineReservationsSystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/airlineReservationsSystem/AirlineReservationsSystemMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/chapterEight/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/chapterEight/phoneBookAppTest/PhoneBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,40 @@
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest">
+  <component name="RunManager" selected="Application.MergeKSortedLists">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="inTheBeginningCopy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.TortoiseAndTheHareRace.Main" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterEight.classWork.TortoiseAndTheHareRace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MergeKSortedLists" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
@@ -130,61 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.arrayListIsElasticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.chapterTen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd.chapterTen" />
-      <option name="MAIN_CLASS_NAME" value="tdd.chapterTen.ArrayListTest" />
-      <option name="METHOD_NAME" value="arrayListIsElasticTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListTest.insertElementInArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.chapterTen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd.chapterTen" />
-      <option name="MAIN_CLASS_NAME" value="tdd.chapterTen.ArrayListTest" />
-      <option name="METHOD_NAME" value="insertElementInArrayList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListTest.removeFromEmptyArrayList_shouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.chapterTen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd.chapterTen" />
-      <option name="MAIN_CLASS_NAME" value="tdd.chapterTen.ArrayListTest" />
-      <option name="METHOD_NAME" value="removeFromEmptyArrayList_shouldThrowException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKSortedLists" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" />
-        <item itemvalue="JUnit.ArrayListTest.insertElementInArrayList" />
-        <item itemvalue="JUnit.ArrayListTest.removeFromEmptyArrayList_shouldThrowException" />
-        <item itemvalue="JUnit.ArrayListTest.arrayListIsElasticTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +205,15 @@
       <workItem from="1675500971966" duration="1467000" />
       <workItem from="1675518540339" duration="476000" />
       <workItem from="1675590280683" duration="13546000" />
-      <workItem from="1675678948753" duration="7239000" />
+      <workItem from="1675678948753" duration="10432000" />
+      <workItem from="1675724486750" duration="1284000" />
+      <workItem from="1675773772811" duration="2523000" />
+      <workItem from="1675835306800" duration="12000" />
+      <workItem from="1675836842317" duration="659000" />
+      <workItem from="1675877268485" duration="908000" />
+      <workItem from="1675960018442" duration="610000" />
+      <workItem from="1676033395785" duration="7327000" />
+      <workItem from="1676046686777" duration="11043000" />
     </task>
     <servers />
   </component>
