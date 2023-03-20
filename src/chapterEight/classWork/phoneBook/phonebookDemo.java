@@ -19,8 +19,6 @@ public class phonebookDemo {
     }
 
     private static void gotoMainMenu() throws IOException {
-        display(String.valueOf(phonebook.getNumberOfContacts()));
-        display("Your password is "+phonebook.getPassword());
         String mainMenu = """
                 1 => Add Contact
                 2 => View Contact

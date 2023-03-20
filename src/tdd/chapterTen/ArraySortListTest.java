@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ArrayListTest {
+public class ArraySortListTest {
 
     List myArrayList;
 

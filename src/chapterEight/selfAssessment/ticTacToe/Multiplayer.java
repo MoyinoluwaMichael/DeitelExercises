@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static chapterEight.selfAssessment.ticTacToe.Player.getCurrentPlayer;
 import static chapterEight.selfAssessment.ticTacToe.TicTacToe.addNewLine;
-import static chapterSeven.selfAssessment.knightTour2.ChessBoard.displayBoard;
+import static chapterEight.selfAssessment.ticTacToe.TicTacToe.displayBoard;
 
 public class Multiplayer {
     private static final Scanner scanner = new Scanner(System.in);

@@ -79,7 +79,7 @@ public class TicTacToe {
         board[row][column] = players[getCurrentPlayer()].getSymbol();
     }
 
-    private static void displayBoard() {
+    public static void displayBoard() {
         for (String[] row : board) {
             System.out.println(Arrays.toString(row));
         }

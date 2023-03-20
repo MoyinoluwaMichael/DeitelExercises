@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeKSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFourteen/classwork/DateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFourteen/classwork/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ArraySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/NumberToWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/f.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/phonebookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/phonebookDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/Multiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/chapterTen/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/chapterTen/ArraySortListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/Moyinoluwa Michael/IdeaProjects/inTheBeginning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/IdeaProjects/electionSnacks/emailApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="chapterTen" />
@@ -91,29 +100,9 @@
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedLists">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="inTheBeginningCopy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.TortoiseAndTheHareRace.Main" />
-      <module name="inTheBeginningCopy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterEight.classWork.TortoiseAndTheHareRace.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MergeKSortedLists" />
+  <component name="RunManager" selected="Application.Regex">
+    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ArraySort" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
@@ -125,44 +114,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DateConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFourteen.classwork.DateConverter" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.chapterTen.*" />
+          <option name="PATTERN" value="chapterFourteen.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd.chapterTen" />
-      <option name="MAIN_CLASS_NAME" value="tdd.chapterTen.ArrayListTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFourteen.classwork.Regex" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.chapterTen.*" />
+          <option name="PATTERN" value="chapterFourteen.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd.chapterTen" />
-      <option name="MAIN_CLASS_NAME" value="tdd.chapterTen.ArrayListTest" />
-      <option name="METHOD_NAME" value="addXYZ_removeY_ZShouldBeInPositionOfY" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapterEight.selfAssessment.ticTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.ticTacToe.Main" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterEight.selfAssessment.ticTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phonebookDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.phoneBook.phonebookDemo" />
+      <module name="inTheBeginningCopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterEight.classWork.phoneBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeKSortedLists" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ArrayListTest" />
-        <item itemvalue="JUnit.ArrayListTest.addXYZ_removeY_ZShouldBeInPositionOfY" />
+        <item itemvalue="Application.Regex" />
+        <item itemvalue="Application.DateConverter" />
+        <item itemvalue="Application.ArraySort" />
+        <item itemvalue="Application.phonebookDemo" />
+        <item itemvalue="Application.chapterEight.selfAssessment.ticTacToe.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +224,27 @@
       <workItem from="1675960018442" duration="610000" />
       <workItem from="1676033395785" duration="7327000" />
       <workItem from="1676046686777" duration="11043000" />
+      <workItem from="1676369679842" duration="6506000" />
+      <workItem from="1676580402018" duration="626000" />
+      <workItem from="1676835712188" duration="4030000" />
+      <workItem from="1676952790718" duration="617000" />
+      <workItem from="1677100264346" duration="614000" />
+      <workItem from="1677129421174" duration="3488000" />
+      <workItem from="1677140453386" duration="1215000" />
+      <workItem from="1677177273245" duration="2000" />
+      <workItem from="1677430155781" duration="566000" />
+      <workItem from="1677436072278" duration="644000" />
+      <workItem from="1677782082808" duration="1454000" />
+      <workItem from="1677822169961" duration="94000" />
+      <workItem from="1677850467996" duration="638000" />
+      <workItem from="1677852533096" duration="1448000" />
+      <workItem from="1678021950824" duration="1398000" />
+      <workItem from="1679058314802" duration="560000" />
+      <workItem from="1679059112085" duration="2741000" />
+      <workItem from="1679178343034" duration="1317000" />
+      <workItem from="1679230191483" duration="35000" />
+      <workItem from="1679300169244" duration="378000" />
+      <workItem from="1679300724247" duration="12359000" />
     </task>
     <servers />
   </component>
