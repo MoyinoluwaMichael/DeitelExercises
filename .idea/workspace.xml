@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterFourteen/classwork/DateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFourteen/classwork/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ArraySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/NumberToWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/FileInputOutputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/FilesIOStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/ObjectInputOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/objectInputOutputStream/DeserializableTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/objectInputOutputStream/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/objectInputOutputStream/SerializableTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/text2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/RotateImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/phonebookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/phoneBook/phonebookDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/Multiplayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/selfAssessment/ticTacToe/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/chapterTen/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/chapterTen/ArraySortListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFourteen/classwork/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFourteen/classwork/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/numberToWords/NumberToWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/NumberToWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt://C:/Program Files/Java/jdk-19!/java.base/java/nio/file/attribute/PosixFilePermissions.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-19/lib/src.zip!/java.base/java/nio/file/attribute/FileAttribute.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-19/lib/src.zip!/java.base/java/nio/file/attribute/PosixFilePermissions.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +70,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/IdeaProjects/electionSnacks/emailApp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/IdeaProjects/electionSnacks/emailAppWithMongoDb&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -100,13 +108,13 @@
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Regex">
-    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ArraySort" />
+  <component name="RunManager" selected="Application.DeserializableTestMain">
+    <configuration name="DeserializableTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.objectInputOutputStream.DeserializableTestMain" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="chapterFifteen.classwork.objectInputOutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFourteen.classwork.DateConverter" />
+    <configuration name="FileInputOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.FileInputOutputStreamTest" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFourteen.classwork.*" />
+          <option name="PATTERN" value="chapterFifteen.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFourteen.classwork.Regex" />
+    <configuration name="FilesIOStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.FilesIOStreams" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFourteen.classwork.*" />
+          <option name="PATTERN" value="chapterFifteen.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapterEight.selfAssessment.ticTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.ticTacToe.Main" />
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.numberToWords.RotateImage" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterEight.selfAssessment.ticTacToe.*" />
+          <option name="PATTERN" value="leetcode.numberToWords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="phonebookDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.phoneBook.phonebookDemo" />
+    <configuration name="SerializableTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.objectInputOutputStream.SerializableTestMain" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterEight.classWork.phoneBook.*" />
+          <option name="PATTERN" value="chapterFifteen.classwork.objectInputOutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,13 +174,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.DeserializableTestMain" />
+      <item itemvalue="Application.FileInputOutputStreamTest" />
+      <item itemvalue="Application.SerializableTestMain" />
+      <item itemvalue="Application.FilesIOStreams" />
+      <item itemvalue="Application.RotateImage" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Regex" />
-        <item itemvalue="Application.DateConverter" />
-        <item itemvalue="Application.ArraySort" />
-        <item itemvalue="Application.phonebookDemo" />
-        <item itemvalue="Application.chapterEight.selfAssessment.ticTacToe.Main" />
+        <item itemvalue="Application.DeserializableTestMain" />
+        <item itemvalue="Application.SerializableTestMain" />
+        <item itemvalue="Application.FileInputOutputStreamTest" />
+        <item itemvalue="Application.FilesIOStreams" />
+        <item itemvalue="Application.RotateImage" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +259,10 @@
       <workItem from="1679178343034" duration="1317000" />
       <workItem from="1679230191483" duration="35000" />
       <workItem from="1679300169244" duration="378000" />
-      <workItem from="1679300724247" duration="12359000" />
+      <workItem from="1679300724247" duration="18618000" />
+      <workItem from="1679342625174" duration="3589000" />
+      <workItem from="1679393597288" duration="16236000" />
+      <workItem from="1679670883332" duration="5192000" />
     </task>
     <servers />
   </component>
