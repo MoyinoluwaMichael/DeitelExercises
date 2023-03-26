@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/FileInputOutputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/FilesIOStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/ObjectInputOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/objectInputOutputStream/DeserializableTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/objectInputOutputStream/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/objectInputOutputStream/SerializableTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/text2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/fileReader/FileReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/fileReader/FileWriterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/GeoPoliticalZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/GeoPoliticalZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFifteen/classwork/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFourteen/classwork/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFourteen/classwork/Regex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/numberToWords/NumberToWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/NumberToWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +100,13 @@
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeserializableTestMain">
-    <configuration name="DeserializableTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.objectInputOutputStream.DeserializableTestMain" />
+  <component name="RunManager" selected="Application.chapterEight.selfAssessment.memoryGame.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.TortoiseAndTheHareRace.Main" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFifteen.classwork.objectInputOutputStream.*" />
+          <option name="PATTERN" value="chapterEight.classWork.TortoiseAndTheHareRace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.FileInputOutputStreamTest" />
+    <configuration name="StarShapedAsterisks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFive.selfAssessment.starShapedAsterisks.StarShapedAsterisks" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFifteen.classwork.*" />
+          <option name="PATTERN" value="chapterFive.selfAssessment.starShapedAsterisks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesIOStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.FilesIOStreams" />
+    <configuration name="StarShapedAsterisks2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFive.selfAssessment.starShapedAsterisks.StarShapedAsterisks2" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFifteen.classwork.*" />
+          <option name="PATTERN" value="chapterFive.selfAssessment.starShapedAsterisks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.numberToWords.RotateImage" />
+    <configuration name="chapterEight.selfAssessment.memoryGame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.memoryGame.Main" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.numberToWords.*" />
+          <option name="PATTERN" value="chapterEight.selfAssessment.memoryGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializableTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFifteen.classwork.objectInputOutputStream.SerializableTestMain" />
+    <configuration name="chapterEight.selfAssessment.ticTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.ticTacToe.Main" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFifteen.classwork.objectInputOutputStream.*" />
+          <option name="PATTERN" value="chapterEight.selfAssessment.ticTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeserializableTestMain" />
-      <item itemvalue="Application.FileInputOutputStreamTest" />
-      <item itemvalue="Application.SerializableTestMain" />
-      <item itemvalue="Application.FilesIOStreams" />
-      <item itemvalue="Application.RotateImage" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StarShapedAsterisks" />
+      <item itemvalue="Application.StarShapedAsterisks2" />
+      <item itemvalue="Application.chapterEight.selfAssessment.memoryGame.Main" />
+      <item itemvalue="Application.chapterEight.selfAssessment.ticTacToe.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeserializableTestMain" />
-        <item itemvalue="Application.SerializableTestMain" />
-        <item itemvalue="Application.FileInputOutputStreamTest" />
-        <item itemvalue="Application.FilesIOStreams" />
-        <item itemvalue="Application.RotateImage" />
+        <item itemvalue="Application.chapterEight.selfAssessment.memoryGame.Main" />
+        <item itemvalue="Application.StarShapedAsterisks2" />
+        <item itemvalue="Application.StarShapedAsterisks" />
+        <item itemvalue="Application.chapterEight.selfAssessment.ticTacToe.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +254,11 @@
       <workItem from="1679300724247" duration="18618000" />
       <workItem from="1679342625174" duration="3589000" />
       <workItem from="1679393597288" duration="16236000" />
-      <workItem from="1679670883332" duration="5192000" />
+      <workItem from="1679670883332" duration="7543000" />
+      <workItem from="1679691675053" duration="14000" />
+      <workItem from="1679695436193" duration="4345000" />
+      <workItem from="1679751041125" duration="1000" />
+      <workItem from="1679824648477" duration="13000" />
     </task>
     <servers />
   </component>

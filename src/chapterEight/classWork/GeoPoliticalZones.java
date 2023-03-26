@@ -1,8 +1,5 @@
 package chapterEight.classWork;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public enum GeoPoliticalZones {
     NORTH_CENTRAL(new String[]{"Benue", "FCT", "Kogi", "Kwara", "Nasarawa", "Niger", "Plateau"}),
     NORTH_EAST(new String[]{"Adamawa", "Bauchi", "Borno", "Gombe", "Taraba", "Yobe"}),
