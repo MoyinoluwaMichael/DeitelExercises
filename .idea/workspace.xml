@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/fileReader/FileReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/fileReader/FileWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/JSON/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/JSON/JsonDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/JSON/JsonSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/bufferedReader/BufferedReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/bufferedReader/BufferedWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/exercises/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFifteen/exercises/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/IndexAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Lcm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/ExerciseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/LcmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/chapterFifteen/CatToJsonSerializationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/chapterFifteen/JsonDeserializationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/GeoPoliticalZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/GeoPoliticalZones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFifteen/classwork/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inTheBeginningCopy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inTheBeginningCopy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFifteen/classwork/FileInputOutputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/FileInputOutputStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFifteen/classwork/FilesIOStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/FilesIOStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" afterDir="false" />
     </list>
@@ -23,9 +36,9 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,12 +75,15 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/IdeaProjects/electionSnacks/emailAppWithMongoDb&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/Other/New folder/REGNOS/libraries/jar_files (1)&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -96,17 +112,20 @@
       <recent name="chapterEight.selfAssessment.CylinderClass" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tdd" />
+      <recent name="tdd.chapterFifteen" />
+      <recent name="chapterFifteen.classwork.JSON" />
       <recent name="tdd.chapterEight" />
       <recent name="chapterEight.classWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.chapterEight.selfAssessment.memoryGame.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.classWork.TortoiseAndTheHareRace.Main" />
+  <component name="RunManager" selected="JUnit.LcmTest.lcmFunctionTest">
+    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Lcm" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterEight.classWork.TortoiseAndTheHareRace.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarShapedAsterisks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFive.selfAssessment.starShapedAsterisks.StarShapedAsterisks" />
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RotateImage" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFive.selfAssessment.starShapedAsterisks.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,59 +146,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarShapedAsterisks2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFive.selfAssessment.starShapedAsterisks.StarShapedAsterisks2" />
+    <configuration name="ExerciseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFive.selfAssessment.starShapedAsterisks.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.ExerciseTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapterEight.selfAssessment.memoryGame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.memoryGame.Main" />
+    <configuration name="ExerciseTest.testConsecutiveNumbersExercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterEight.selfAssessment.memoryGame.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.ExerciseTest" />
+      <option name="METHOD_NAME" value="testConsecutiveNumbersExercise" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapterEight.selfAssessment.ticTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.selfAssessment.ticTacToe.Main" />
+    <configuration name="LcmTest.lcmFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterEight.selfAssessment.ticTacToe.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.LcmTest" />
+      <option name="METHOD_NAME" value="lcmFunctionTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.StarShapedAsterisks" />
-      <item itemvalue="Application.StarShapedAsterisks2" />
-      <item itemvalue="Application.chapterEight.selfAssessment.memoryGame.Main" />
-      <item itemvalue="Application.chapterEight.selfAssessment.ticTacToe.Main" />
+      <item itemvalue="Application.Lcm" />
+      <item itemvalue="Application.RotateImage" />
+      <item itemvalue="JUnit.LcmTest.lcmFunctionTest" />
+      <item itemvalue="JUnit.ExerciseTest" />
+      <item itemvalue="JUnit.ExerciseTest.testConsecutiveNumbersExercise" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.chapterEight.selfAssessment.memoryGame.Main" />
-        <item itemvalue="Application.StarShapedAsterisks2" />
-        <item itemvalue="Application.StarShapedAsterisks" />
-        <item itemvalue="Application.chapterEight.selfAssessment.ticTacToe.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LcmTest.lcmFunctionTest" />
+        <item itemvalue="Application.Lcm" />
+        <item itemvalue="Application.RotateImage" />
+        <item itemvalue="JUnit.ExerciseTest.testConsecutiveNumbersExercise" />
+        <item itemvalue="JUnit.ExerciseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +286,16 @@
       <workItem from="1679695436193" duration="4345000" />
       <workItem from="1679751041125" duration="1000" />
       <workItem from="1679824648477" duration="13000" />
+      <workItem from="1679860502143" duration="4421000" />
+      <workItem from="1679893858038" duration="2281000" />
+      <workItem from="1679905789967" duration="12413000" />
+      <workItem from="1679927091289" duration="14751000" />
+      <workItem from="1679992330751" duration="19855000" />
+      <workItem from="1680041098796" duration="3282000" />
+      <workItem from="1680127520169" duration="23000" />
+      <workItem from="1680132750610" duration="2146000" />
+      <workItem from="1680609085187" duration="19647000" />
+      <workItem from="1680654060422" duration="1004000" />
     </task>
     <servers />
   </component>

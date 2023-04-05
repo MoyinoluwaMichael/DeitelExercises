@@ -33,5 +33,25 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Other/New folder/REGNOS/libraries/jar_files" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Other/New folder/REGNOS/libraries/jar_files" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Other/New folder/REGNOS/libraries/jar_files (1)" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Other/New folder/REGNOS/libraries/jar_files (1)" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
