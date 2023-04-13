@@ -2,7 +2,7 @@ package chapterFive.assignment;
 
 import java.util.Scanner;
 
-public class NokiaMenuFunctions {
+public class    NokiaMenuFunctions {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
