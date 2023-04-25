@@ -1,17 +1,19 @@
-import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Enter your date of birth in this format: dd/mm/yyyy");
-            String dob = scanner.nextLine();
-            String [] dmy = dob.split("/");
-
-            if (LocalDateTime.now().getYear() - Integer.parseInt(dmy[2]) < 18) System.err.println("You are Illegible");
-            else System.out.println("You are legible");
+        System.out.println("Enter the size of your asterisk");
+        int userInput = scanner.nextInt();
+        int count = 1;
+        while (count <= userInput) {
+            int count2 = 0;
+            while (count2 < count) {
+                System.out.print("*");
+                count2++;
+            }
+            System.out.println();
+            count++;
         }
 
     }
