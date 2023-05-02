@@ -2,7 +2,7 @@ package cycleCalculator;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first day date of your last period cycle in this format(dd/mm/yyyy): ");
@@ -12,11 +12,14 @@ public class main {
         System.out.println("Enter your cycle interval: ");
         int cycleInterval = scanner.nextInt();
 
-        Calculator periodCalculator = new Calculator(startDate, periodLength, cycleInterval);
-
-        for (Cycle cycle : periodCalculator.calculateCyclesOverThePeriodOf(12)) {
-            System.out.println(cycle);
-            System.out.println();
+        CycleCalculator periodCycleCalculator = new CycleCalculator(startDate, periodLength, cycleInterval);
+        int count = 1;
+        for (Cycle cycle : periodCycleCalculator.calculateCyclesOverThePeriodOf(12)) {
+            System.out.printf("""
+                    CYCLE %d
+                    %s
+                    """, count, cycle);
+            count++;
         }
 
     }

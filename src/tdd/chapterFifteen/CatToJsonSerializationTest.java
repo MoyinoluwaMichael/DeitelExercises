@@ -28,7 +28,7 @@ public class CatToJsonSerializationTest {
         String catJson = JsonSerialization.convertCatToJson(cat);
         System.out.println(catJson);
         assertNotNull(catJson);
-        assertEquals("{\"name\":\"Bingo\",\"colour\":\"pink\",\"type\":\"EranIyaOsogbo\",\"dob\":"+"\""+formatter.format(dob)+"\""+"}", catJson);
+        assertEquals("{\"()name\":\"Bingo\",\"colour\":\"pink\",\"type\":\"EranIyaOsogbo\",\"dob\":"+"\""+formatter.format(dob)+"\""+"}", catJson);
     }
 
 }
