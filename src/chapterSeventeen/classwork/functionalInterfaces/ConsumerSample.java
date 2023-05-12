@@ -9,5 +9,5 @@ public class ConsumerSample {
                 .andThen(name -> System.out.println(name+"lastly")).accept("Moyin");
     }
 
-    static Consumer<String> consumerDeclarative = name -> System.out.println(name+"");
+    static Consumer<String> consumerDeclarative = System.out::println;
 }

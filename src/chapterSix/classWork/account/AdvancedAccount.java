@@ -3,7 +3,6 @@ package chapterSix.classWork.account;
 import java.util.Scanner;
 
 public class AdvancedAccount {
-    Scanner input = new Scanner(System.in);
     private String accountName;
     private String accountNumber;
     private String accountPin;
@@ -59,5 +58,15 @@ public class AdvancedAccount {
         if (amount > 0 && amount <= balance && pin.equals(accountPin)) {
             balance = balance - amount;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "AdvancedAccount{" +
+                "accountName='" + accountName + '\'' +
+                ", accountNumber='" + accountNumber + '\'' +
+                ", accountPin='" + accountPin + '\'' +
+                ", balance=" + balance +
+                '}';
     }
 }
