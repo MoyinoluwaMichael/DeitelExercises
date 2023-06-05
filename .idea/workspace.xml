@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32670cd-1f16-4acb-8d98-d5776d11e97c" name="Changes" comment="Stretched">
-      <change afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/IntConsumerSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/StreamSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/assessment/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/assessment/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/test/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/test/RectangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/numberToWords/test/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeventeen/deitelExercises/SummarizingTheCharactersInAFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Pangram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterEight/classWork/GeoPoliticalZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterEight/classWork/GeoPoliticalZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFifteen/classwork/fileReader/FileWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFifteen/classwork/fileReader/FileWriterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/Mystery2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/Mystery2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/PrintingTheDecimalEquivalentOfABinaryNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/PrintingTheDecimalEquivalentOfABinaryNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/selfAssessment/deitelExercises/TabularOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/ConsumerSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/ConsumerSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSix/classWork/account/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSix/classWork/account/AccountMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterSix/classWork/account/AdvancedAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSix/classWork/account/AdvancedAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterThree/classWork/Native.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/classWork/Native.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/DuplicateElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeven/selfAssessment/DuplicateElimination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/BinaryOperatorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/BinaryOperatorSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/UnaryOperatorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/UnaryOperatorSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/assessment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/functionalInterfaces/assessment/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterSeventeen/classwork/streams/StreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterSeventeen/classwork/streams/StreamsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +32,14 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -69,7 +66,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/Desktop/ecobank-mpesa&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/Other/New folder/SoftEngineGroup/codebase/ecobank-mpesa&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,13 +113,13 @@
       <recent name="chapterFifteen.classwork.JSON" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountMain">
-    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSix.classWork.account.AccountMain" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="DuplicateElimination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.selfAssessment.DuplicateElimination" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSix.classWork.account.*" />
+          <option name="PATTERN" value="chapterSeven.selfAssessment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeventeen.classwork.functionalInterfaces.StreamSample" />
+    <configuration name="Pangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Pangram" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeventeen.classwork.functionalInterfaces.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,35 +160,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest.testPerimeterOfARectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SummarizingTheCharactersInAFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeventeen.deitelExercises.SummarizingTheCharactersInAFile" />
       <module name="inTheBeginningCopy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.numberToWords.test.*" />
+          <option name="PATTERN" value="chapterSeventeen.deitelExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.numberToWords.test" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.numberToWords.test.RectangleTest" />
-      <option name="METHOD_NAME" value="testPerimeterOfARectangle" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AccountMain" />
+      <item itemvalue="Application.DuplicateElimination" />
+      <item itemvalue="Application.Pangram" />
+      <item itemvalue="Application.SummarizingTheCharactersInAFile" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.StreamSample" />
       <item itemvalue="Application.StreamsTest" />
-      <item itemvalue="JUnit.RectangleTest.testPerimeterOfARectangle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountMain" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.RectangleTest.testPerimeterOfARectangle" />
-        <item itemvalue="Application.StreamSample" />
+        <item itemvalue="Application.DuplicateElimination" />
+        <item itemvalue="Application.Pangram" />
+        <item itemvalue="Application.SummarizingTheCharactersInAFile" />
         <item itemvalue="Application.StreamsTest" />
       </list>
     </recent_temporary>
@@ -327,7 +321,29 @@
       <workItem from="1683710967164" duration="4742000" />
       <workItem from="1683728830177" duration="2861000" />
       <workItem from="1683801794553" duration="4763000" />
-      <workItem from="1683825254263" duration="7727000" />
+      <workItem from="1683825254263" duration="8358000" />
+      <workItem from="1684062212957" duration="9517000" />
+      <workItem from="1684270930156" duration="601000" />
+      <workItem from="1684291785671" duration="1380000" />
+      <workItem from="1684357875474" duration="569000" />
+      <workItem from="1684380471196" duration="987000" />
+      <workItem from="1684396678580" duration="2457000" />
+      <workItem from="1684448732200" duration="3414000" />
+      <workItem from="1684484567442" duration="2636000" />
+      <workItem from="1684688939214" duration="5950000" />
+      <workItem from="1684769836128" duration="3407000" />
+      <workItem from="1684926320941" duration="4731000" />
+      <workItem from="1685045231532" duration="1036000" />
+      <workItem from="1685071481201" duration="91000" />
+      <workItem from="1685441365336" duration="4979000" />
+      <workItem from="1685523399959" duration="883000" />
+      <workItem from="1685539021183" duration="832000" />
+      <workItem from="1685569533759" duration="3527000" />
+      <workItem from="1685629428689" duration="1515000" />
+      <workItem from="1685684055083" duration="3023000" />
+      <workItem from="1685799675914" duration="1854000" />
+      <workItem from="1685876751539" duration="11000" />
+      <workItem from="1685918151333" duration="712000" />
     </task>
     <servers />
   </component>

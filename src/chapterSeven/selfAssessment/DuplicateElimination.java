@@ -20,11 +20,12 @@ public class DuplicateElimination {
             for (int column = row+1; column < numbers.size(); column++){
                 if (numbers.get(row) == numbers.get(column)){
                     numbers.remove(column);
+                    row--;
                 }
             }
         }
         for (int each:numbers) {
-            System.out.print(numbers);
+            System.out.print(each);
             System.out.print(", ");
         }
     }

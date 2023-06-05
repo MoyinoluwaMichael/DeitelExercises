@@ -8,7 +8,7 @@ public enum GeoPoliticalZones {
     SOUTH_SOUTH(new String[]{"Akwa-Ibom", "Bayelsa", "Cross-River", "Delta", "Edo", "Rivers"}),
     SOUTH_WEST(new String[]{"Ekiti", "Lagos", "Osun", "Ondo", "Ogun", "Oyo"});
 
-    private String[] states;
+    public String[] states;
 
     GeoPoliticalZones(String [] states){
         this.states = states;

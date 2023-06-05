@@ -1,20 +1,38 @@
-import com.fasterxml.jackson.databind.util.JSONPObject;
+import chapterEight.classWork.GeoPoliticalZones;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) throws NoSuchAlgorithmException {
-        System.out.println(encrypt("moyinoluwa"));
-        System.out.println(decode("21e5c522ae6611e2a1826833c8d7ec6547d4cf23a2d59fd94687dbb7060bd86"));
+        GeoPoliticalZones southEast = GeoPoliticalZones.SOUTH_EAST;
+        southEast.name();
+        System.out.println(Arrays.toString(GeoPoliticalZones.values()));
+        List<Integer> nums = new ArrayList<>();
+        nums.add(20);
+        nums.add(15);
+        nums.add(21);
+        nums.add(2);
+        nums.add(19);
+        nums.add(27);
+        nums.add(24);
+        nums.add(26);
+        nums.add(4);
+        nums.add(11);
+        nums.add(25);
+        nums.add(29);
+        nums.add(16);
+        nums.add(5);
+        nums.add(3);
+//        for (int i = 1; i <= 29; i++) {
+//            if (!nums.contains(i))System.out.print(i+" ");
+//        }
+        String word = "I love you";
     }
 
     private static String decode(String input) {
